@@ -29,7 +29,7 @@ To run this project locally:
 2. Navigate to the project directory:
 
    bash
-   cd Rock-Paper-Scissor_Game
+   `cd Rock-Paper-Scissor_Game`
 
 3. Open index.html in your web browser.
 
