@@ -4,45 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script2.js" defer></script>
-    <title>Rock Paper Scissor - GUI</title>
+    <script src="script.js" defer></script>
+    <title>🎮 Rock Paper Scissor - GUI</title>
   </head>
   <body>
-    <h1>Rock Paper Scissor - GUI Based Game 🎮</h1>
-    <h2 id="ties">Ties : 0</h2>
+    <section class="disabled">
+      <h1>Rock Paper Scissor - GUI Based Game 🎮</h1>
+      <h2 id="ties">Ties : 0</h2>
 
-    <section class="player">
-      <div class="playerScore">Player Score: 0</div>
+      <section class="player">
+        <div class="playerScore">Player Score: 0</div>
 
-      <div class="playerImages">
-        <img src="images/rock.png" alt="Rock" class="playerImgs" id="rock" />
-        <img src="images/paper.png" alt="Paper" class="playerImgs" id="paper" />
-        <img
-          src="images/scissors.png"
-          alt="Scissor"
-          class="playerImgs"
-          id="scissor"
-        />
-      </div>
+        <div class="playerImages">
+          <img src="images/rock.png" alt="Rock" class="playerImgs" id="rock" />
+          <img
+            src="images/paper.png"
+            alt="Paper"
+            class="playerImgs"
+            id="paper"
+          />
+          <img
+            src="images/scissors.png"
+            alt="Scissor"
+            class="playerImgs"
+            id="scissor"
+          />
+        </div>
+      </section>
+      <section class="computer">
+        <div class="computerScore">Computer Score: 0</div>
+
+        <div class="computerImages">
+          <img
+            src="images/rock.png"
+            alt="Rock"
+            class="computerImgs"
+            id="rock2"
+          />
+          <img
+            src="images/paper.png"
+            alt="Paper"
+            class="computerImgs"
+            id="paper2"
+          />
+          <img
+            src="images/scissors.png"
+            alt="Scissor"
+            class="computerImgs"
+            id="scissor2"
+          />
+        </div>
+      </section>
     </section>
-    <section class="computer">
-      <div class="computerScore">Computer Score: 0</div>
-
-      <div class="computerImages">
-        <img src="images/rock.png" alt="Rock" class="computerImgs" id="rock" />
-        <img
-          src="images/paper.png"
-          alt="Paper"
-          class="computerImgs"
-          id="paper"
-        />
-        <img
-          src="images/scissors.png"
-          alt="Scissor"
-          class="computerImgs"
-          id="scissor"
-        />
-      </div>
-    </section>
+    <div class="playButton">
+      <button id="play" onclick="removeDisabled()">Start Game</button>
+    </div>
+    <div class="result"></div>
   </body>
 </html>
