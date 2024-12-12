@@ -3,9 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock Paper Scissor - CLI Based</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script2.js" defer></script>
+    <title>Rock Paper Scissor - GUI</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <h1>Rock Paper Scissor - GUI Based Game 🎮</h1>
+    <h2 id="ties">Ties : 0</h2>
+
+    <section class="player">
+      <div class="playerScore">Player Score: 0</div>
+
+      <div class="playerImages">
+        <img src="images/rock.png" alt="Rock" class="playerImgs" id="rock" />
+        <img src="images/paper.png" alt="Paper" class="playerImgs" id="paper" />
+        <img
+          src="images/scissors.png"
+          alt="Scissor"
+          class="playerImgs"
+          id="scissor"
+        />
+      </div>
+    </section>
+    <section class="computer">
+      <div class="computerScore">Computer Score: 0</div>
+
+      <div class="computerImages">
+        <img src="images/rock.png" alt="Rock" class="computerImgs" id="rock" />
+        <img
+          src="images/paper.png"
+          alt="Paper"
+          class="computerImgs"
+          id="paper"
+        />
+        <img
+          src="images/scissors.png"
+          alt="Scissor"
+          class="computerImgs"
+          id="scissor"
+        />
+      </div>
+    </section>
   </body>
 </html>

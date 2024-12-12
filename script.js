@@ -43,25 +43,26 @@ function playRound(hChoice, cChoice) {
   }
 }
 
-let hChoice;
-let cChoice;
+//*FOR CONSOLE BASED*
+// let hChoice;
+// let cChoice;
 
-hChoice = getHumanChoice();
-cChoice = getComputerChoice();
-cChoice = cChoice.toLowerCase();
-hChoice = hChoice.toLowerCase();
-playRound(hChoice, cChoice);
+// hChoice = getHumanChoice();
+// cChoice = getComputerChoice();
+// cChoice = cChoice.toLowerCase();
+// hChoice = hChoice.toLowerCase();
+// playRound(hChoice, cChoice);
 
-hChoice = getHumanChoice();
-cChoice = getComputerChoice();
-cChoice = cChoice.toLowerCase();
-hChoice = hChoice.toLowerCase();
-playRound(hChoice, cChoice);
+// hChoice = getHumanChoice();
+// cChoice = getComputerChoice();
+// cChoice = cChoice.toLowerCase();
+// hChoice = hChoice.toLowerCase();
+// playRound(hChoice, cChoice);
 
-hChoice = getHumanChoice();
-cChoice = getComputerChoice();
-cChoice = cChoice.toLowerCase();
-hChoice = hChoice.toLowerCase();
-playRound(hChoice, cChoice);
+// hChoice = getHumanChoice();
+// cChoice = getComputerChoice();
+// cChoice = cChoice.toLowerCase();
+// hChoice = hChoice.toLowerCase();
+// playRound(hChoice, cChoice);
 
-console.log(`Your Score: ${hScore} | Computer Score: ${cScore}`);
+// console.log(`Your Score: ${hScore} | Computer Score: ${cScore}`);
