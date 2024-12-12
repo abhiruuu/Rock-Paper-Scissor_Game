@@ -62,7 +62,7 @@ function playRound(hChoice) {
       computerScore.innerHTML = `<span>Computer Score: ${cScore}</span>`;
       if (cScore == 5) {
         startButtonArea.style.display = "none";
-        result.innerHTML = `<span style = "font-size: 50px">YOU LOSE BOOO!👎</span>`;
+        result.innerHTML = `<span style = "font-size: 50px">YOU LOST BOOO!👎</span>`;
         result.innerHTML += `<p style = "font-size: 15px">LAST ROUND: You chose ${hChoice} and Computer chose ${cChoice}</p>`;
         addDisabled();
         console.log("REFRESH TO RESTART THE GAME");
